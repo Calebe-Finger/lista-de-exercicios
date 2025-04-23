@@ -5,12 +5,12 @@
         //Crie um programa para calcular o volume de uma caixa retangular
         static void Main(string[] args)
         {
-            #region imput de dados
-                Console.WriteLine("---------------------------------------------");
-                Console.WriteLine("Calcular Volume de uma Caixa Retangular");
-                Console.WriteLine("---------------------------------------------");
+            Console.WriteLine("---------------------------------------------");
+            Console.WriteLine("Calcular Volume de uma Caixa Retangular");
+            Console.WriteLine("---------------------------------------------");
 
-                Console.WriteLine("Digite o comprimento da caixa: ");
+            #region imput de dados
+            Console.WriteLine("Digite o comprimento da caixa: ");
                 Console.WriteLine("---------------------------------------------");
                 decimal comprimento = Convert.ToDecimal(Console.ReadLine());
 
